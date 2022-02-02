@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.110.218.109:9980/Shasi/repository/facebook-snapshot1/</url>
+	      <url>http://3.110.218.109:9980/Shasi/repository/facebook-snapshot-1/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
