@@ -8,6 +8,7 @@ stage('CheckoutCode'){
 git branch: 'development', credentialsId: '27782ac5-7489-44fc-a192-c1f3599f2079', url: 'https://github.com/mss-devops-learning/maven-web-application.git'
 }
 
+/*
 stage('Build'){
 sh "${mavenHome}/bin/mvn clean package"
 }
@@ -26,4 +27,5 @@ sshagent(['fcae1313-2888-4ba7-9e95-b88aabc310c2'])
 sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war  ec2-user@65.2.142.199:/opt/apache-tomcat-9.0.58/webapps/"
  }
 }
+*/
 }
